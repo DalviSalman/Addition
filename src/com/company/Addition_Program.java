@@ -5,16 +5,27 @@ public class Addition_Program {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int num1,num2,sum = 0;
+        boolean show = true;
 
-        System.out.println("Enter Number 1: ");
-        num1 = sc.nextInt();
-        System.out.println("Enter Number 2: ");
-        num2 = sc.nextInt();
+        int num,sum = 0;
 
-        sum = num1 + num2;
+        while(show)
+        {
+            System.out.println("Enter Number: ");
+            num = sc.nextInt();
+
+            if(num == 0)
+            {
+                show = false;
+            }
+            else
+            {
+                sum += num;
+            }
+        }
 
         System.out.println("Sum Is: " + sum);
+
 
     }
 }
