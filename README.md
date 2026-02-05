@@ -1,2 +1,5 @@
-# Addition
-I am creating this repository just for testing and learning purposes.
+# Addition  
+This Program Add Two Number And Give The Sum Of The Number  
+**Author -** *Salman Dalvi*
+
+
