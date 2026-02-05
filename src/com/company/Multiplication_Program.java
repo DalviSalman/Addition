@@ -7,14 +7,14 @@ public class Multiplication_Program {
 
         int num1,num2,mul = 0;
 
-        System.out.println("Enter Number 1: ");
+        System.out.println("Enter Number For 1: ");
         num1 = sc.nextInt();
-        System.out.println("Enter Number 2: ");
+        System.out.println("Enter Number For 2: ");
         num2 = sc.nextInt();
 
         mul = num1 * num2;
 
-        System.out.println("Multiplication Is: " + mul);
+        System.out.println("Multiplication Of Two Number Is: " + mul);
 
     }
 }
